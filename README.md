@@ -1,2 +1,2 @@
 # Logistic-Regression-Analysis
-Logistic Regression Analysis on Gene Expression Data Set of Tourrette and Healthy Individuals
+For this project, I found a study titled, “Peripheral blood transcriptomics identifies cohesin–chromatin and immune dysregulation in tics and Tourette syndrome”. In this study, the researchers generated bulk RNA sequences from healthy and tic disorder children, male and female: “(19 with Tourette syndrome, aged 6-16, median age 10 years, 18 (64%) males) compared to 20 matched healthy controls (aged 1-25, median age 11 years, 13 (65%) males)”. I performed logistic regression analysis on this data set.
