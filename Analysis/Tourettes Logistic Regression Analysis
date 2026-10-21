@@ -1,1 +1,10 @@
+The RNA-seq data from the previously mentioned study was used for analysis to test if gene expression can predict gender.
+Two data frames were created to hold the raw count data as well as log-normalized. 
+These data frames were fed to a logistic regression function where results were tabulated including standard errors and p-values and results data frames were generated.
+The top 10 genes were reported and there were a few that upon first look predict gender including SUPT20HL1 and ENSG00000229491.
+There may be a few that are biologically relevant for gender, but the p-value distribution is rather balanced from 0 to 1, indicating that overall the association may be weak.
 
+For the second part, multiple hypothesis testing using leave-n-out re-sampling was performed for both raw and transformed data with 100 iterations.
+The leave one out sampling technique seems to have a strong effect as the top genes with this technique do not match the top 10 genes from more basic logistic regression.
+This may not be as trustworthy with the sample size and leave out sampling as there is a much greater difference between the p-values of this set and the previous logistic expression.
+Additionally, the raw and normalized data had the same results which means that normalization had no impact.
